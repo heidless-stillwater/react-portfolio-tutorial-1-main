@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/me-about.png'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -23,24 +23,34 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>BSc Comp Sci 1990</small>
+              <small></small>
+              <small></small>
+              <small></small>
+              <small></small>
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>Corporate to StartUp</small>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>Time-based with clear deliverables preferred</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos voluptatem eius dolorem maiores nihil ducimus at rem ullam reprehenderit quidem quia deserunt, molestiae, eligendi amet repellat molestias quos totam.
+            I've had the privilage of combining a career in both the Arts & IT. Agilista. Experience as both Scrum Master & ADM. 
+          </p>
+          <p>  
+            Returning my focus to Software & Business Opportunities. Exploring opportunities in the SaaS, blockchain space. 
+          </p>
+          <p>
+            Looking to quickly build my dev mileage. Open to short, deliverable based contracts - particularly relating to SaaS & blockchain.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
