@@ -38,7 +38,7 @@ header {
 
 /* =============== ME ============== */
 .me {
-  background: linear-gradient(var(--color-primary), transparent);
+  background: linear-gradient(var(--color-primary-rob), transparent);
   width: 22rem;
   height: 30rem;
   position: absolute;
@@ -47,7 +47,7 @@ header {
   margin-top: 4rem;
   border-radius: 12rem 12rem 12rem 12rem;
   overflow: hidden;
-  padding: 1rem 1.0rem 1.0rem 1.0rem;
+  padding: 0.0rem 0.0rem 0.0rem 0.0rem;
 }
 
 /* =============== SCROLL DOWN ============== */

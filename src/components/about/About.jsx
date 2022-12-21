@@ -33,24 +33,35 @@ const About = () => {
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>Corporate to StartUp</small>
+              <ul>
+                <li>
+                  <small>Small growing concerns & Start Ups in SaaS & dApp space.</small>
+                </li>
+              </ul>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>Time-based with clear deliverables preferred</small>
+              <ul>
+                <li>
+                  <small>S.M.A.R.T Deliverable Contracts preffered.</small>
+                </li>
+              </ul>
             </article>
           </div>
 
           <p>
-            I've had the privilage of combining a career in both the Arts & IT. Agilista. Experience as both Scrum Master & ADM. 
+            I've had the privilege of combining a career in both the Arts & IT. Agilista. Experience as both Scrum Master & ADM. Returning my focus to Software & Business Opportunities.
           </p>
           <p>  
-            Returning my focus to Software & Business Opportunities. Exploring opportunities in the SaaS, blockchain space. 
+            Exploring opportunities in the SaaS, blockchain space. 
           </p>
           <p>
-            Looking to quickly build my dev mileage. Open to short, deliverable based contracts - particularly relating to SaaS & blockchain.
+            Looking to quickly regain my sea legs as a Dev. Open to short, deliverable based contracts - particularly relating to SaaS & blockchain.
+          </p>
+          <p>
+            Very open to the Charity Sector - particularly Food Poverty - How can I help?
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
