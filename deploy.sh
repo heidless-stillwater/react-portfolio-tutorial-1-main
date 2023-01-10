@@ -1,3 +1,5 @@
+echo "deploying... "
+
 echo "switching to Branch master"
 git checkout master
 
