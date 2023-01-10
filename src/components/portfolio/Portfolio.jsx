@@ -1,6 +1,7 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
+// import IMG1 from '../../assets/portfolio1.jpg'
+import IMG1 from '../../assets/pfolio-0.png'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
@@ -13,9 +14,9 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
+    title: 'Sourdough SweetHeart : Shopify Store',
+    github: 'https://sourdoughsweetheart.com',
+    demo: 'https://sourdoughsweetheart.com/collections/contribution'
   },
   {
     id: 2,
@@ -69,10 +70,10 @@ const Portfolio = () => {
               <div className="portfolio__item-image">
                 <img src={image} alt={title} />
               </div>
-              <h3>{title}</h3>
+              <h3>TEST{title}</h3>
               <div className="portfolio__item-cta">
-                <a href={github} className='btn' target='_blank'>Github</a>
-                <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                <a href={github} className='btn' target='_blank'>homepage</a>
+                <a href={demo} className='btn btn-primary' target='_blank'>contribution</a>
               </div>
             </article>
             )
